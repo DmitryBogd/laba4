@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="z2.css">
+    <script src="z2.js"></script>
+    <title>Диаграмма</title>
+</head>
+<div>
+    <aside class="right">
+        <h1>Средний бал</h1>
+        <table cellspacing="0" id="table">
+            <tr class="tr">
+                <th></th>
+                <th>Студент</th>
+                <th>Бал</th>
+            </tr>
+            <tr class="tr">
+                <td class="td">Студент 1</td>
+                <td class="td">95</td>
+				<td class="td"><button class="delete_tr" id="t1">Удалить</button></td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Студент 2</td>
+                <td class="td">68</td>
+				<td class="td"><button class="delete_tr" id="t2">Удалить</button></td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Студент 3</td>
+                <td class="td">72</td>
+				<td class="td"><button class="delete_tr" id="t3">Удалить</button></td>
+            </tr>
+            <tr class="tr">
+                <td class="td">Студент 4</td>
+                <td class="td">21</td>
+				<td class="td"><button class="delete_tr" id="t4">Удалить</button></td>
+            </tr>
+        </table>
+        <button id="add_tr" class="but">Додати студента</button>
+    </aside>
+
+    <div class="left">
+        <h1>Діаграма</h1>
+        <div id="diagrama">
+            <div class="block_for_diagrama" style="height:100%;" title="95%"><p class="rotate">Студент 1</p></div>
+            <div class="block_for_diagrama" style="height:60%;" title="68%"><p class="rotate">Студент 2</p></div>
+            <div class="block_for_diagrama" style="height:62%;" title="72%"><p class="rotate">Студент 3</p></div>
+            <div class="block_for_diagrama" style="height:21%;" title="21%"><p class="rotate">Студент 4</p></div>
+        </div>
+    </div>
+</body>
+</html>
